@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "ErwinCat",
+    "slug": "erwincat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "erwincat",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xh9.erwincat",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ]
+      },
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.xh9.erwincat",
+      "permissions": [
+        "INTERNET"
+      ],
+      "newArchEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      "expo-build-properties"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/6a3cdf21-782b-44cc-8520-c12691b1ee0c"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a3cdf21-782b-44cc-8520-c12691b1ee0c"
+      }
+    },
+    "owner": "xh9",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
